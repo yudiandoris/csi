@@ -24,7 +24,7 @@ Data files in this repository:
 
 * ```data/CSI/{dev_v1, train_v1}.json```: extractive speaker identification (SI) instances of CSI. 
 * ```data/JY/{test, dev, train}.json```: extractive SI instances of JY [1]. 
-* ```data/WP2021/{test_unsplit, dev_unsplit, train_unsplit}.json```: extractive SI instances of WP2021 [2]. 
+* ```data/WP2021/{test_unsplit, dev_unsplit, train_unsplit}.json```: extractive SI instances of WP2021 [2][3]. 
 
 
 Please visit
@@ -58,7 +58,7 @@ bash run_zero_shot_eval.sh
 ```
 
 
-We adopt the extractive machine reading comprehension baseline released in [CLUE](https://github.com/CLUEbenchmark/CLUE/tree/master/baselines/models_pytorch/mrc_pytorch) [3].
+We adopt the extractive machine reading comprehension baseline released in [CLUE](https://github.com/CLUEbenchmark/CLUE/tree/master/baselines/models_pytorch/mrc_pytorch) [4].
 
 
 ## Results
@@ -97,10 +97,11 @@ method | model | # of parameters |  CSI (masked version) | CSI (original version
 
 
 ## References
-1. Jia-Xiang Chen, Zhen-Hua Ling, and Li-Rong Dai. 2019. A chinese dataset for identifying speakers in novels. In Proceedings of the INTERSPEECH, pages 1561–1565.
-2. Yue Chen, Zhen-Hua Ling, and Qing-Feng Liu. 2021. A
+1. Yuxiang Jia, Huayi Dou, Shuai Cao, and Hongying Zan. Speaker Identification and Its Application to Social Network Construction for Chinese Novels. 2021. In Proceedings of the IALP, pages 13-18
+2. Jia-Xiang Chen, Zhen-Hua Ling, and Li-Rong Dai. 2019. A chinese dataset for identifying speakers in novels. In Proceedings of the INTERSPEECH, pages 1561–1565.
+3. Yue Chen, Zhen-Hua Ling, and Qing-Feng Liu. 2021. A
 neural-network-based approach to identifying speakers in novels. Proc. Interspeech 2021, pages 4114–4118.
-3. Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao,
+4. Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao,
 Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong
 Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi,
 Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang,
